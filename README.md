@@ -17,7 +17,7 @@
 
 4. Set up blynk stuff
 
-5. while True loop:
+5.** while True loop**:
     - Reintialize the directory back to the original after changing the csv
     - Retrieve the data based on indexing the array that is returned. 
     - **Email**
@@ -25,7 +25,8 @@
         - Once the lenght of the message is not empty, and the email timer passes 20 seconds, it will send an email
         - The Try and the Catch block. 
             - Sometimes, the dht11 sensor does not collect data the first time, this will require the user to restart the script. The try and catch will stop the program from ending abruptly when that happens. 
-            - It is a TypeError since if temperature is null, you can not compare a value to null, there
+            - It is a TypeError since if temperature is null, you can not compare a value to null
+             - 
          
     
 
